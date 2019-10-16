@@ -1,4 +1,4 @@
-import { visit, BREAK } from 'graphql'
+import { visit, BREAK } from 'graphql/language'
 import { checkDocument, cloneDeep } from 'apollo-utilities'
 
 const PERSIST_FIELD = {

@@ -1,4 +1,4 @@
-import { visit } from 'graphql'
+import { visit } from 'graphql/language'
 import { ApolloLink } from 'apollo-link'
 import traverse from 'traverse'
 
